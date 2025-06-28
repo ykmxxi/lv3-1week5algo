@@ -29,7 +29,6 @@ PR을 제 시간 안에 올리지 못하거나, 5문제 이상 해결하지 못�
 
 ## 구성원
 
-
-| <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt=""> | <img src="https://avatars.githubusercontent.com/u/122252160?v=4" alt=""> |
-|:-:|:-----------------------------------------------------------------------:|
-|                    [헤일러](https://github.com/threepebbles)                    |                     [부기](https://github.com/changuii``)                      |
+| <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/122252160?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/83596813?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/80245376?v=4" alt="" width=80> |
+| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+|                      [헤일러](https://github.com/threepebbles)                      |                         [부기](https://github.com/changuii)                         | [미소](https://github.com/soeun2537)                                               | [포스티](https://github.com/ykmxxi)                                                 |
