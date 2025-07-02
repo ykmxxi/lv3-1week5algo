@@ -1,5 +1,3 @@
-package BOJ;
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
