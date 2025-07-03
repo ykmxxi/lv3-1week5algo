@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
+// 두 용액
 public class BOJ2470 {
 
     final static int MAXN = 100_000 + 1;

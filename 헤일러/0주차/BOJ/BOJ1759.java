@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
+// 암호 만들기
 public class BOJ1759 {
 
     private static List<String> MOEUM = List.of("a", "e", "i", "o", "u");

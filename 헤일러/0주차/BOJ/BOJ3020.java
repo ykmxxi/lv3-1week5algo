@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
+// 개똥벌레
 public class BOJ3020 {
 
     public static void main(String[] args) throws IOException {

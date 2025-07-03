@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 아이 러브 크로아티아
 public class BOJ9517 {
 
     static final int MOD = 8;
