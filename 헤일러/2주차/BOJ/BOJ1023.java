@@ -40,7 +40,7 @@ public class BOJ1023 {
             return;
         }
 
-        solve(0, N, 0, K, true);
+        solve(0, 0, K, true);
 
         for (int i = 0; i < N; i++) {
             bw.write(ans[i]);
@@ -49,12 +49,13 @@ public class BOJ1023 {
     }
 
     // isPossible: 아직 올바른 괄호 문자열이 될 가능성이 있으면 true
-    private static void solve(int idx, int leftLen, int cntOpen, long leftK, boolean isPossible) {
+    private static void solve(int idx, int cntOpen, long leftK, boolean isPossible) {
         if (idx == N) {
             return;
         }
 
         // cnt = idx에 (를 고정했을 때, 괄호 ㄴㄴ 문자열 개수
+        int leftLen = N - idx;
         long cnt = (1L << (leftLen - 1));
         if (isPossible) {
             cnt -= po[leftLen - 1][cntOpen + 1];
@@ -62,13 +63,13 @@ public class BOJ1023 {
 
         if (leftK < cnt) {
             ans[idx] = '(';
-            solve(idx + 1, leftLen - 1, cntOpen + 1, leftK, isPossible);
+            solve(idx + 1, cntOpen + 1, leftK, isPossible);
         } else {
             ans[idx] = ')';
             if (cntOpen - 1 < 0) {
                 isPossible = false;
             }
-            solve(idx + 1, leftLen - 1, cntOpen - 1, leftK - cnt, isPossible);
+            solve(idx + 1, cntOpen - 1, leftK - cnt, isPossible);
         }
     }
 }
