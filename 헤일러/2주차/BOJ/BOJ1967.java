@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
+// https://www.acmicpc.net/problem/1967
+// 트리의 지름
 public class BOJ1967 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
