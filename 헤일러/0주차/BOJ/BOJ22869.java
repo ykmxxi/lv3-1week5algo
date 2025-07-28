@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// https://www.acmicpc.net/problem/22869
+// 징검다리 건너기 (small)
 class BOJ22869 {
 
     static final int MAXN = 5000;

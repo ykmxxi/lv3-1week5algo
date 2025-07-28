@@ -12,23 +12,24 @@
 
 ### PR 제출 방법
 1. 이 repository를 `fork`한 후, 최상위 프로젝트 폴더에 본인 닉네임으로 폴더를 생성합니다.
-2. `N주차` 폴더를 생성합니다.
+2. 본인 닉네임 폴더 하위에 `N주차` 폴더를 생성합니다.
 3. 해결한 문제에 대한 커밋을 작성합니다.
 4. 이 repository에 PR을 작성합니다.
-   - PR 제목: `[헤일러] - 1주차 제출`
+   - PR 제목: {본인 닉네임} - N주차 제출
+       - ex) `헤일러 - 1주차 제출`
    - 파일 경로: {본인 닉네임}/{N주차}/{이 하위는 각자 원하는 대로}
        - ex) `헤일러/1주차/BOJ/BOJ22869.java`, `헤일러/1주차/programmers/숫자_타자_대회.java`
    - PR 내용에 본인이 해결한 문제들의 링크를 남겨주세요. 
        - ex) `백준 징검다리 건너기 (small): https://www.acmicpc.net/problem/22869`
 
 ## 벌칙
-PR을 제 시간 안에 올리지 못하거나, 5문제 이상 해결하지 못한 경우 아래 벌칙을 수행해야 합니다.
+5문제 이상 해결하지 못하거나, PR을 제 시간 안에 올리지 못한 경우 아래 벌칙을 수행해야 합니다.
 
 - 부족한 문제당 2,000원
 - PR을 제 시간에 제출하지 못한 경우 10,000원 (5문제 치)
 
 ## 구성원
 
-| <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/122252160?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/83596813?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/80245376?v=4" alt="" width=80> |
-| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-|                      [헤일러](https://github.com/threepebbles)                      |                         [부기](https://github.com/changuii)                         | [미소](https://github.com/soeun2537)                                               | [포스티](https://github.com/ykmxxi)                                                 |
+| <img src="https://avatars.githubusercontent.com/u/28076054?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/122252160?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/83596813?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/80245376?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/86940801?v=4" alt="" width=80> | <img src="https://avatars.githubusercontent.com/u/42440498?v=4" alt="" width=80> |
+| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+|                      [헤일러](https://github.com/threepebbles)                      |                         [부기](https://github.com/changuii)                         | [미소](https://github.com/soeun2537)                                               | [포스티](https://github.com/ykmxxi)                                                 | [수양](https://github.com/ppparkta)                                                | [히스타](https://github.com/Hacanna42)                                              |
