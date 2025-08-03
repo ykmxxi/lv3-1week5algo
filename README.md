@@ -24,7 +24,11 @@ git rebase upstream/main
 
 실수로 rebase를 안하고 PR을 먼저 올린 경우, rebase 후에 force push해주면 File Changed에서 사라집니다.
 ```shell
+git remote add upstream https://github.com/7-study-algorithm/lv3-1week5algo.git
+git fetch upstream
+git checkout main
 git rebase upstream/main
+
 git push -f origin main
 ```
 5. 이 repository에 PR을 작성합니다.
