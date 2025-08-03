@@ -14,7 +14,7 @@
 1. 이 repository를 `fork`한 후, 최상위 프로젝트 폴더에 본인 닉네임으로 폴더를 생성합니다.
 2. 본인 닉네임 폴더 하위에 `N주차` 폴더를 생성합니다.
 3. 해결한 문제에 대한 커밋을 작성합니다.
-4. 새로운 PR 작성 전, rebase를 통해 원격 레포지토리와 커밋 시점을 동일하게 맞추기 위한 작업을 해야 합니다. 그렇지 않으면 이전 파일이 계속 File Changed에 잡힙니다.
+4. 새로운 PR 작성 전, rebase를 통해 원격 레포지토리와 커밋 시점을 동일하게 맞추기 위한 작업을 해야 합니다. 그렇지 않으면 이전 커밋 내역이 계속 File Changed에 잡힙니다.
 ```shell
 git remote add upstream https://github.com/7-study-algorithm/lv3-1week5algo.git
 git fetch upstream
