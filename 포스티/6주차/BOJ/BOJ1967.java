@@ -1,5 +1,5 @@
 // 트리의 지름: https://www.acmicpc.net/problem/1967
-// 시간 복잡도: n * O(n) -> O(n^2) -> 10^8 -> 1초 이상
+// 시간 복잡도: O(n)
 
 import java.util.*;
 import java.io.*;
@@ -7,7 +7,7 @@ import java.io.*;
 public class BOJ1967 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static int n, ans = 0;
+    static int n, ans = 0, far;
     static List<Node>[] adj;
     static boolean[] visit;
 
@@ -36,17 +36,22 @@ public class BOJ1967 {
 
     static void pro() {
         // 두 노드 사이의 경로의 길이 -> 트리의 지름
-        // 왼쪽 자식과 오른쪽 자식 트리를 dfs 로 탐색 -> max 갱신
-        for (int i = 1; i <= n; i++) {
-            visit = new boolean[n + 1];
-            dfs(i, 0);
-        }
+        far = 1;
+        visit = new boolean[n + 1];
+        dfs(1, 0); // 가장 높은 가중치를 갖는 간선의 마지막 정점을 탐색하는 dfs
+
+        visit = new boolean[n + 1];
+        dfs(far, 0); // 가장 높은 가중치를 갖는 간선의 마지막 정점에서 시작
+
         System.out.println(ans);
     }
 
     static void dfs(int x, int val) {
+        if (val > ans) {
+            ans = val;
+            far = x;
+        }
         visit[x] = true;
-        ans = Math.max(ans, val);
 
         for (Node cur : adj[x]) {
             int y = cur.v;
